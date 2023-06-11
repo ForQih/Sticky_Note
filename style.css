@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  /*The bacground style*/
+  background: 
+  radial-gradient(circle, transparent 20%, #e0fbfc 20%, #e0fbfc 80%,transparent 80%, transparent),
+  radial-gradient(circle, transparent 20%, #e0fbfc 20%, #e0fbfc 80%,transparent 80%, transparent) 50px 50px,
+  linear-gradient(#98c1d9 8px, transparent 8px) 0 -4px,
+  linear-gradient(90deg, #98c1d9 8px, transparent 8px) -4px 0;
+  background-color: #e0fbfc;
+  background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
+  height:100%;
+  padding-bottom: 40px;
+}
+
+#page_header {
+  font-size: 31px;
+  padding: 20px;
+  text-align: center;
+  font-family: cursive;
+  letter-spacing: 0.25em;
+  color: #3d5a80;
+}
+
+#page_header_border {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: 4px solid #3d5a80;
+  border-radius: 10px;
+  background-color: white;
+  display: inline-block;
+}
+
+#app {
+  gap: 24px;
+  padding: 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+}
+
+.note {
+  border: none;
+  resize: none;
+  height: 200px;
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 13px;
+  box-sizing: border-box;
+  font-family: cursive;
+  box-shadow: 0 0 10px 4px #3d5a80;
+}
+
+.add-note {
+  border: none;
+  height: 200px;
+  outline: none;
+  transition: background 0.2s;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-size: 120px;
+  color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.add-note:hover {
+  background: #3d5a80;
+}
+
+footer {
+  background: #98c1d9;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #3d5a80;
+  height: auto;
+  }
